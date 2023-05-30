@@ -1,8 +1,9 @@
 
 # HTTP Tutorial for Beginners | HTTP Crash Course
 
-All course files for the **HTTP Tutorial for Beginners | HTTP Crash Course**
-playlist on Ali Baharev's YouTube channel.
+All course files for the 
+[HTTP Tutorial for Beginners | HTTP Crash Course playlist](https://youtube.com/playlist?list=PL30E-B055MjyJVukw4he-j7xcL7Itq03N) 
+on Ali Baharev's YouTube channel.
 
 Videos on the playlist:
 
