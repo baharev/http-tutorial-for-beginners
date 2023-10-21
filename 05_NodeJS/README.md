@@ -6,7 +6,5 @@ You must install Node.js first.
 Once Node.js is available, run the following commands in the command line / PowerShell:
 
 ```
-npm install
-
-npm start
+node server_nodejs.mjs
 ```
