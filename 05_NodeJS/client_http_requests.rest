@@ -1,0 +1,59 @@
+
+# CRUD: Create - Read - Update - Delete
+#=======================================
+# Create
+
+POST /cars
+Host: localhost:3000
+Content-Type: application/json
+
+{
+    "make": "Ferrari",
+    "year": 1987
+}
+
+######################
+# Read one 
+
+GET /cars/2
+Host: localhost:3000
+
+###
+
+HEAD  /cars/2
+Host: localhost:3000
+
+###
+# List all
+
+GET /cars
+Host: localhost:3000
+
+######################
+# Update: overwrite completely
+
+PUT /cars/2
+Host: localhost:3000
+Content-Type: application/json
+
+{
+    "make": "Ferrari",
+    "year": 1987,
+    "color": "red"
+}
+
+###
+# Change some of the attributes
+
+PATCH /cars/2
+Host: localhost:3000
+Content-Type: application/json
+
+{
+    "year": 2023
+}
+
+######################
+
+DELETE /cars/2
+Host: localhost:3000
